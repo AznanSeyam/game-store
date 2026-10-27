@@ -1,0 +1,29 @@
+## Visual Studio Build Outputs
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+
+## Visual Studio User Settings
+*.user
+*.userosscache
+*.sln.docstates
+
+## Rider & VS Code Settings
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## OS generated files
+.DS_Store
+Thumbs.db
+
+## Docker
+.dockerignore
+
+## User-specific files & Secrets
+appsettings.Development.json
