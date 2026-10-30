@@ -97,7 +97,7 @@ namespace hotel_reservation_api.Controllers
 
         private bool HotelExists(int id)
         {
-            return context.Hotels.Any(e => e.Id == id);
+            return context.Hotels.Any(c => c.Id == id);
         }
     }
 }
