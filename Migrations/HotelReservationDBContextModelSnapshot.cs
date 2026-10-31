@@ -7,6 +7,7 @@ using hotel_reservation_api.Data;
 
 #nullable disable
 
+
 namespace hotel_reservation_api.Migrations
 {
     [DbContext(typeof(HotelReservationDBContext))]
